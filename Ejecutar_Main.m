@@ -6,7 +6,7 @@ close all;
 Noise=[40 30 20 10];
 
 %Ciclo que recorre los diferentes niveles de ruido
-for jj=1:4
+for jj=1:length(Noise)
 %% Aqui se definen cuantas veces se repite el proceso de estimación de
 % los parametros.
 
